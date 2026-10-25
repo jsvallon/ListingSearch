@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <!-- English only for now: translatable="false" tells Android lint these strings
+         have no other language versions (e.g. no values-es). Remove it from a string
+         when you add a translation for it. -->
+    <!-- Header -->
+    <string translatable="false" name="search_title">Property Search</string>
+    <string translatable="false" name="search_subtitle">Find a home that fits your needs</string>
+    <string translatable="false" name="search_hide">Hide</string>
+
+    <!-- Search fields -->
+    <string translatable="false" name="field_city">City</string>
+    <string translatable="false" name="field_keyword">Keyword</string>
+    <string translatable="false" name="field_min_price">Min price</string>
+    <string translatable="false" name="field_max_price">Max price</string>
+    <string translatable="false" name="field_min_bedrooms">Min bedrooms</string>
+    <string translatable="false" name="price_prefix">$</string>
+
+    <!-- Actions -->
+    <string translatable="false" name="action_search">Search</string>
+    <string translatable="false" name="action_searching">Searching…</string>
+    <string translatable="false" name="action_clear">Clear</string>
+    <string translatable="false" name="action_edit_filters">Edit filters</string>
+    <string translatable="false" name="action_try_again">Try again</string>
+
+    <!-- Collapsed filter bar -->
+    <string translatable="false" name="filter_bar_hint">Tap to edit filters</string>
+    <string translatable="false" name="filter_bar_click_label">Edit search filters</string>
+    <string translatable="false" name="filter_summary_all">All listings</string>
+    <string translatable="false" name="filter_summary_any">Any</string>
+    <string translatable="false" name="filter_summary_keyword">“%1$s”</string>
+    <string translatable="false" name="filter_summary_price_range">%1$s–%2$s</string>
+    <string translatable="false" name="filter_summary_beds">%1$s+ beds</string>
+    <string translatable="false" name="filter_summary_separator">" · "</string>
+    <string translatable="false" name="price_short_millions">$%1$sM</string>
+    <string translatable="false" name="price_short_thousands">$%1$sK</string>
+    <string translatable="false" name="price_short_plain">$%1$s</string>
+
+    <!-- Initial state -->
+    <string translatable="false" name="initial_title">Find your next home</string>
+    <string translatable="false" name="initial_body">Enter a city, keyword, price range, or bedroom requirement to start searching.</string>
+
+    <!-- Loading state -->
+    <string translatable="false" name="loading_message">Searching properties…</string>
+
+    <!-- No results state -->
+    <string translatable="false" name="empty_title">No properties found</string>
+    <string translatable="false" name="empty_body">Try changing your city, price range, keyword, or bedroom filters.</string>
+
+    <!-- Error state -->
+    <string translatable="false" name="error_title">Unable to load properties</string>
+    <string translatable="false" name="error_body">Check your connection and try again.</string>
+
+    <!-- Results -->
+    <plurals translatable="false" name="results_count">
+        <item quantity="one">%1$d property found</item>
+        <item quantity="other">%1$d properties found</item>
+    </plurals>
+    <plurals translatable="false" name="results_count_partial">
+        <item quantity="one">Showing %1$d of %2$d property</item>
+        <item quantity="other">Showing %1$d of %2$d properties</item>
+    </plurals>
+
+    <!-- Listing card -->
+    <string translatable="false" name="listing_location">%1$s, %2$s %3$s</string>
+    <plurals translatable="false" name="listing_beds">
+        <item quantity="one">%1$s bed</item>
+        <item quantity="other">%1$s beds</item>
+    </plurals>
+    <plurals translatable="false" name="listing_baths">
+        <item quantity="one">%1$s bath</item>
+        <item quantity="other">%1$s baths</item>
+    </plurals>
+    <string translatable="false" name="listing_sqft">%1$s sq ft</string>
+</resources>
